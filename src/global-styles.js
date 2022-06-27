@@ -10,6 +10,9 @@ export const GlobalStyles = createGlobalStyle`
 a, button, img, input, span, h4 {
     transition: all 0.3s ease 0s;
 }
+img{
+  user-select: none;
+}
 input{
     border: none;
     outline: none;
