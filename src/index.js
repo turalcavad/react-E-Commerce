@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "normalize.css";
 import { GlobalStyles } from "./global-styles";
@@ -9,7 +10,9 @@ root.render(
 	<>
 		<GlobalStyles />
 		<React.StrictMode>
-			<App />
+			<BrowserRouter>
+				<App />
+			</BrowserRouter>
 		</React.StrictMode>
 	</>
 );
