@@ -13,6 +13,9 @@ a, button, img, input, span, h4 {
 img{
   user-select: none;
 }
+button{
+  cursor: pointer;
+}
 input{
     border: none;
     outline: none;
